@@ -1,0 +1,9 @@
+﻿<!--List<Product>-->
+    @foreach (var item in Model)
+    {
+        <div>
+            @item.NAme
+            @item.Price
+          <img src="/Images/@item.Image" style="width:100px;height:100px">
+        </div>
+    }

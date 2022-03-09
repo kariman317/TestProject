@@ -1,0 +1,27 @@
+﻿
+<h1>Hello FRom View :)</h1>
+<script>
+    //alert("hello");
+</script>
+<style>
+    .class1{color:red}
+</style>
+@{
+    int x = 7;
+    int y = 9;
+    <div>@x</div>
+    
+}
+@if(x>y){
+    <div> x=@x greater than y=@y </div>
+}
+else{
+    <div> x=@x Less than y=@y </div>
+}
+@for (int i = 0; i < 5; i++) {
+    <li>@i</li>
+}
+@*@foreach (var item in collection)
+{
+    
+}*@
